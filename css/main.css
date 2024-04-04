@@ -6618,4 +6618,9 @@ body {
     flex-direction: row;
     justify-content: center;
   }
+  .section-title {
+    display: block;
+    position: relative;
+    margin-bottom: 80px !important;
+  }
 }
