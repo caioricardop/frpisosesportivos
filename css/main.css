@@ -6599,3 +6599,23 @@ body {
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .uk-grid {
+    flex-direction: column;
+  }
+
+  .section-book-appointment .uk-grid > div {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .stat-item__top {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
