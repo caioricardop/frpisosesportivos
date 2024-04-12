@@ -180,6 +180,11 @@ body {
   min-height: 100vh;
   overflow: hidden;
 }
+@media (max-width: 600px) {
+  .page-wrapper {
+    min-height: auto; 
+  }
+}
 
 .page-wrapper .page-main {
   -webkit-box-flex: 1;

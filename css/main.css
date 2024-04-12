@@ -692,7 +692,11 @@ body {
 .block-with-icon__desc {
   display: block;
 }
-
+@media (max-width: 600px) {
+  .page-wrapper {
+    min-height: auto; 
+  }
+}
 .block-with-icon__label {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;

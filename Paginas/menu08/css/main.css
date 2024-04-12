@@ -749,7 +749,11 @@ body {
   content: '';
   transition: 0.5s;
 }
-
+@media (max-width: 600px) {
+  .page-wrapper {
+    min-height: auto;  
+  }
+}
 .list-checked li:hover::before,
 .list-checked li:focus::before,
 .list-checked li:active::before {

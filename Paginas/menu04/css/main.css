@@ -702,7 +702,11 @@ body {
   line-height: 1;
   transition: 0.5s;
 }
-
+@media (max-width: 600px) {
+  .page-wrapper {
+    min-height: auto; 
+  }
+}
 .block-with-icon__value {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
